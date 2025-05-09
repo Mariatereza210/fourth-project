@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="UTF-8" />
+    <title>may-9</title>
+    <meta name="author" content="Mariatereza Ragimova" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1>პროდუქტები</h1>
+    <select id="typeFilter">
+      <option value="ყველა">ყველა</option>
+      <option value="მობილური">მობილური</option>
+      <option value="ლეპტოპი">ლეპტოპი</option>
+      <option value="აქსესუარი">აქსესუარი</option>
+    </select>
+  
+    <select id="sortBy">
+      <option value="დალაგება">დალაგება</option>
+      <option value="price-asc">ფასი: ზრდადობით</option>
+      <option value="price-desc">ფასი: კლებადობით</option>
+      <option value="name">სახელით A-Z</option>
+    </select>
+  
+    <div class="product-list" id="productList"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
